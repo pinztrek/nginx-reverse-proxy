@@ -7,12 +7,12 @@ services:
     ports:
       - 80:80
 
-  sample1:
-    build: ./sample-app
-    environment:
-      SERVICE_NAME: 'sample1'
-
-  sample2:
-    build: ./sample-app
-    environment:
-      SERVICE_NAME: 'sample2'
+#  sample1:
+    #build: ./sample-app
+    #environment:
+      #SERVICE_NAME: 'sample1'
+#
+  #sample2:
+    #build: ./sample-app
+    #environment:
+      #SERVICE_NAME: 'sample2'
